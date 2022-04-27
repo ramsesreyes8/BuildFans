@@ -1,0 +1,52 @@
+<html>
+<head>
+<link rel="icon" href="B.jpg">
+<title> Build Fans
+</title>
+<link rel="stylesheet" type="text/css" href="estilosfuncion.css">
+</head>
+<body>
+<img class="logo" src="imagenespagina/LOGOBF.png">
+<div class="div_padre">
+<div class="boton">
+<img class="banner2" src="imagenespagina/Banner2.png">
+<div class="boton">
+<a href="Index2.html"><img class="img" src="imagenespagina/BotonBE.png"></a>
+<div class="boton">
+<a href="Juegosbe.html"><img class="img" src="imagenespagina/BotonBE2.png"></a>
+<div class="boton">
+<a href="Fama.html"><img class="img" src="imagenespagina/BotonBE3.png"></a>
+<div class="boton">
+<a href="Funcion.html"><img class="img" src="imagenespagina/BotonBE4.png"></a>
+<div class="boton">
+<a href="Bibliografia.html"><img class="img" src="imagenespagina/BotonBE5.png"></a>
+<div class="boton">
+<img class="banner" src="imagenespagina/Banner.png">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section class="main"> 
+<section class="articles">
+<p>Como se habia mencionado antes, el Build Engine no es un motor completamente en 3D, sino sprites localizados en texturas e sectores que asimilan un mundo 3D, y para explicar esto se tiene que explicar el inicio del proceso; para empezar, tenemos que tener en cuenta que el motor representa una "esfera multidimensional en cuadricula", en esta se utilizan esferas 2d llamadas "Sectores", en los cuales se ponen los sprites, asi asimilando su espacio 3d. Sabiendo esto, asi es como se clasifican diversas funciones en este programa.
+<ol>
+<li>Sectores</li>
+<p>Los Sectores es el cuarto principal para la creacion del diseño para un nivel, el cual consiste en un poligono de 2 dimensiones, en donde las caras baja y alta del sector dan diferentes altitudes para recrear un Espacio 3D, razon por la cual las paredes son perfectamente verticales.
+<br>
+<p>Desarrolladores que utilizan este programa usan "Sprites" especiales, llamados "Sector Effectors" que seria efector de sector, que, al ser dado etiquetas especiales(significados definidos con numeros), que darian la oportunidad de crear un mundo dinamico, un ejemplo de esto seria los elevadores en este, que al ser usados serias enviado a otro sector, dando la ilusion de estar en el mismo sector. 
+<li>Voxel</li>
+<p>Un voxel es un componente de un objeto tridimensional, pero en este contexto, el Voxel es el arte digital el cual utiliza pixeles en 3D para crear ilustraciones o este caso, Objetos dentro del juego. Aunque el arte Voxel esta incluido en el Build Engine, no fue utilizado hasta mucho despues de la creacion de el motor, como por ejemplo, "Blood" utiliza voxels para crear sprites para objetos como serian las armas o objetos coleccionables o "Shadow Warrior(1997)" que hace uso de este con objetos interactuables los cuales estan en el mismo sector. 
+<br>
+<img class="imgfuncion" src="imagenespagina/blood_voxels.png"> <img src="imagenespagina/voxel.png" width="170" height="130">
+<li>ROR(Room Over Room)</li>
+<p>Room Over Room es la acciones de colocar una habitacion encima de otra; esto no era algo que estaba integrado en el Build Engine, ni en FPS de la epoca, ya que esto no fue posible hasta Videojuegos que utilizaban 3D, si no que se utilizaba un truco que asimilaba un efecto similar, la cual se basa en poner una capa dentro de una "Viewport" o ventana que teletransportaria al jugador rapidamente a otra region del mapa; Esta caracteristica no seria agregada al Build Engine hasta 2011, en el port para EDUKE32, en donde se llamaria "True Room Over Room", el cual hace referencia al hecho de que este metodo se usa nativamente y no utiliza algun otro metodo para ocultar su funcion. 
+<br>
+<img src="imagenespagina/Duke_room.jpg" width="150" height="150">
+<footer>
+@Copyright 2022 Ramses Reyes Contreras All rights reserved
+</footer>
+</body>
+</html>
